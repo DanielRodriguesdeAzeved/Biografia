@@ -1,0 +1,31 @@
+nav {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Torna a lista um contêiner flexível */
+}
+
+ul.menu li {
+    margin: 0;
+}
+
+ul.menu li a {
+    display: block;
+    color: #949494;
+    text-align: center;
+    padding: 14px 16px;     /* Espaçamento interno dos links */
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #000000;     /* Cor de fundo quando o mouse passa por cima */
+    color: white;
+}
+section{
+    background-color: white;
+    color: #000000;
+}
