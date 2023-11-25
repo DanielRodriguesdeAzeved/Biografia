@@ -1,0 +1,134 @@
+body {
+
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+
+    color: #000000;
+
+    font-size: 16px;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #000;
+}
+
+p {
+    color: #ffffff;
+
+    padding: 5pt;
+
+    margin-right: 250px;
+
+    margin-left: 20px;
+
+    line-height: 150%;
+
+    text-align: justify;
+
+}
+
+h1 {
+    padding: 10pt;
+
+    font-size: 30px;
+
+    color: rgb(247, 247, 247);
+
+    text-transform: uppercase;
+
+}
+
+h2 {
+
+    font-size: 12pt;
+
+    padding: 5px;
+
+    color: white;
+
+    background-color: #000000;
+
+
+}
+
+ul {
+    color: #f5f5f5;
+}
+
+span {
+
+    font-weight: bold;
+
+    color: #FF0000;
+
+    background-color: #FFFF00;
+
+}
+
+.SMD {
+    background-color: #333;
+    color: #fcfafa;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* Sublinhar os links quando o mouse passa por cima */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #333;
+    /* Cor de fundo da tabela */
+    color: white;
+    /* Cor do texto das células da tabela */
+}
+
+th,
+td {
+    border: 1px solid rgb(82, 77, 77);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #413939;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+}
+
+.instagram_tabela {
+    width: 150;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.instagram_tabela td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #584a4a;
+}
+
+.instagram_tabela img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 25%;
+}
+
+.instagram_tabela a {
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.671);
+    font-size: 1em;
+    transition: color 0.5s;
+}
+
+.instagram_tabela a:hover {
+    color: rgba(27, 189, 27, 0.671);
+}
